@@ -1,0 +1,86 @@
+S=> single responsiblity principle 
+O => Open / Closed Principle 
+L => Liskov substitution principle 
+I => Interface segregation principle 
+D => Dependency inversion principle 
+
+Single responsiblity principle  => A class hould have only one reason to change . OR A class should do only one thing . 
+SRP => it does not mean that only one mehtod is there in one class
+but many mehtods are doing one task . 
+
+O : Open - Close principle : 
+A class hsould be open for extension but close for modificaiton . 
+like jo cart he it has , has a relationship with storagepersistance
+now we want to add more type of persistance , but we need to modify , 
+so better is to make this storagepersistance class as abstracti , and  define it's mehtod in different type of persistance . 
+
+
+
+L : Liskove Substitution Principle 
+Subclass should be substituable for their base class 
+subclass should extend not narrow the base class . 
+sabse jayada break yehi hi hota he .A => B , b is child class 
+b shoudl behave as A  for those mehtod which is part of A
+ It has three part 
+ 1. Signature Rule
+ 2. Property Rule 
+ 3. Mehtod Rule 
+
+
+ broad  :       Animal 
+                  ^
+                  |
+ narrow :       Dog 
+  in the context of the Is-a relationship (inheritance), the Dog class is considered narrower (more specific) and the Animal class is considered broader (more general).
+
+  1. Signature Rule : 
+  2. Property Rule => Class invariant , history constraint 
+
+
+  invariant : ek rule jo us class ke lye hamesha true ho . 
+  history constraint : history should not be change . 
+  P<------C    
+  P me koi state he and we want same in all it's child 
+
+  example in lsp example in code , 
+  Account : // withdrawal should always be used 
+  but our Fixed Deposit Acc was breaking that rule . 
+
+
+  Immutable Class : that class can't be inherit by other  use final 
+  immutable mehtods : Fixed   use final 
+
+
+
+  Method Rule : pre-condition  and post condition 
+  P <-----C    
+  child can't add new precondition for any method . 
+  wo atleast parent ke condition ko follow karna chhahye . 
+  cihld me condition ko weak kar sakte he , but strength nhi kar sakte 
+
+
+  post condition : 
+  child me condition ko strong kar sakte he , lekin weak nhi kar sakte 
+
+
+
+
+
+  Interface segregation Principle : 
+
+  Many client specific interface are better than one general purpose interface . 
+  Client should not be forced to implements methods they don't need . 
+ 
+  Dependency Inversion Principle 
+  High level module shoudl not depend on low level module but rather boht should depend on abstraction 
+
+
+
+high level module => applicaiton , jo business logic ko deal karta he 
+  Low level : api call karna  , file read karna . 
+
+  appliation => layer <== low level 
+
+
+
+  Learn about dependency injection . 
