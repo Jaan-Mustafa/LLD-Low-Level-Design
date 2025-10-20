@@ -1,0 +1,67 @@
+Observer design pattern : 
+how notification work . how youtube channel knows they need to send notification to the subscriber 
+
+obj1              =====> htere are many objects which want to know 
+                  when the state of obj1 is getting changed . 
+                  []
+
+
+If we don't use this technique then we can use polling . 
+object ki state => observable 
+
+So we need to use pushing , as when state of observable changes it need to send signal => pushing . 
+
+
+IObservable                             IObserver        
+add()             1...............*       update() ;  
+remove IObserver ; 
+notify() ; 
+
+
+
+jab bhi observable change hoga IObserver ka update change hoga 
+
+
+
+Concreate Observable                      ConcreateObserver 
+ vector<IObserver> list ; 
+
+add(Iobserver){
+                                              update(){
+
+                                              }
+}
+                                               ConcreateObservable
+remove (){
+
+}
+
+notify(){
+
+}
+
+
+Define : 
+Defines a one - to many relatinoship between objects so that when one objects changes state , all of its dependents are notified , and updated automatically . 
+
+
+
+Channel                                           ISubscriber 
+subscribe()
+unsubscribe();                                    update()
+notify() ; 
+
+
+////////////////////////////////////
+Problem with Observable ? 
+
+
+kaafi saara kaam kar raha he , like new video upoad , subscribe and unsubscribe , so isko improve karna hoga . 
+
+standard uml need to improve . 
+
+
+problem used to resolve : 
+1. notificaiton service 
+2. event-handling => 
+3. 

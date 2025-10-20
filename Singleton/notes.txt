@@ -1,0 +1,29 @@
+Singletone DEsign Pattern 
+
+ek aisi class jiska sirf ek hi object bane 
+
+
+
+heap => non primitive data type  , object banate he iska . 
+
+
+
+stack =>  primitive data type  int , char , bool 
+
+A* a = new A() ;   ( )=> this will call constructor
+here it's not thread safe , 
+
+eager initialisation => comes with cost , as use bhi nahi hoga tab bhi 
+ham wo object create kar hi denge , so memory waste ho jaayegi . 
+
+
+create a private constructure 
+create a static instance (get instance) that returns the same instance very time . 
+
+
+real world usage 
+1. logging system 
+2. database connection 
+3. configuration manager 
+
+

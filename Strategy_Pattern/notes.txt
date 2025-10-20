@@ -1,0 +1,69 @@
+Strategy Pattern : 
+Officially 23 desing pattern : 
+
+robot ko simulate karna he 
+walk 
+talk 
+projection() 
+
+
+the solution to inheritance is not more inheritance 
+
+Problem with inheritance 
+   Code Re-use 
+   To add new feature a lot of changes were required 
+   breaking ocp 
+
+
+Solution is Strategy Pattern :  It defines a family of algoirthm , put them into seprate classes so that they can be changed at run time . 
+
+
+Robot => talk() , walk() , fly()  , projection() 
+talk , walk , fly is creating problem  these three are algorithms , 
+we need to put them in naother class . 
+
+
+Talkable interface , in cpp it's abstract class 
+talk() 
+
+////
+walkable interface 
+walk() 
+
+// 
+flyable( )  interface 
+
+
+composition is better than inheritance 
+
+///////////////////
+Structure of Strategy pattern : 
+
+
+client                               strategy 
+strategy l     has   a                run()
+execute()     
+                                      concreateStrategy 
+                                      run() => polymorphism 
+
+
+
+example 
+
+payment System 
+payNow()           has a    UPi , credit card , debit card 
+
+
+Sorting()
+sort()                has a quick sort , mergesort     bubble sort 
+
+
+quick sort has also two three type of sort 
+
+
+conclusion : 
+   encapsulation what varies and keep it seprate from what remains same . 
+   solution to inheritance is not more inheritance 
+   compsoition soudl be favoured over inheritance . 
+   coe to interface and not to concoetion 
+   do not repeat yourself . 

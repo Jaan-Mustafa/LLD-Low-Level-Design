@@ -1,1 +1,38 @@
 practise
+
+
+dependency injection in strategy pattern ; 
+
+factory desingn => application business logic separate from object creation logic . 
+
+
+client ===================> Factory  , Factory will return object 
+       <<=================
+          object 
+
+
+Factory : simple factory , factory method , abstract factory method 
+
+
+simple factory : 
+
+
+burger interface  => prepare() 
+
+basic burger , standard burder , premium burger => these three implements the burger . 
+
+
+
+Burger Factory 
+
+createBurger(type A)           A can be basic , standard , premium 
+
+Simple Factory : 
+  A factory class that decides which concreate class to instantiate . 
+
+
+  factory method 
+
+
+
+  abstract factory method ; 

@@ -1,0 +1,41 @@
+Decorator Pattern : 
+
+
+obj1       isko additional functionality provide karna he , so ki ye run time pe wo perform kar sake . 
+
+
+
+obj1       <<-------------   dosomething() 
+            ------------->   do different this time on run time . 
+
+
+
+It is solvable by inheritance , but it's bad . which is solvable by decorator pattern . 
+
+
+Mario :   
+         Height up 
+         gun shooting 
+         Star Ability 
+
+1. class exploitation => number of child classs got increased . 
+2. New heirarchies got created as we discussed in previous design pattern . 
+
+So in decorator 
+we wrap obj1 to newWrapperObject 
+newWrapperObject will be call first and then it will dynamically change the funcitonality of obj1 
+
+we can also wrap     newWrapperObject   . 
+
+
+
+See UML for this . 
+Decorator has a , is a relationship 
+
+
+Defination : Decorator pattern attacks additional responsibilities to an object dynamically decorator provides a flexible alternable to subclassing for extending functionality . 
+
+
+Senario in which we can used Decorator pattern : 
+
+Text Editor => using bold , italics , this can be done by decorator . 
