@@ -1,0 +1,25 @@
+Facade_Design_Pattern 
+
+prinicple of least knowledge . 
+
+// Defination : 
+Facade pattern provides a simplified , unified  interface to a set of complex subsyste . It hides hte complexity of the system and exposes only what is necessary . 
+
+
+
+many small system 
+
+subsystem : 
+bios  , cpu , memory , os 
+
+
+Facade in sabko 
+
+A-> B -> C 
+
+Principle of Least Knowledge (RULE) ; 
+Take any object , now from method in that object , principle tells you to invoke only mehtods that belong to : 
+     -> the object itself . 
+     -? the object passssed in as aparameter to the method 
+     -> any object that method creates 
+     -> any object that has a relationship 

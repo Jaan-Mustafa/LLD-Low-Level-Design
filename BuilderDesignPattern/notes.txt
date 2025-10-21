@@ -1,0 +1,13 @@
+Most famous design pattern : 
+
+mountains , cave consider as portal to connect with material world to spirit world . 
+
+
+client  , we need object of Target , then we will use new keyword for object creation . 
+
+http request : 
+s1 ------------------------------->s2 ; 
+problem 1 :  Constructor Overloading (Telescoping ) : 
+problem 2 : class become mutable 
+problem 3 : inconsistent state 
+problem 4 : scattered validation 

@@ -1,0 +1,16 @@
+Composite Design Pattern : 
+
+this is not for generic design pattern . 
+
+before all are very common deisgn pattern , but theese are new . 
+
+It's very similar to Trees . 
+Designing a Folder System : '
+
+FileSystem : => Folder , Files 
+Folder -> Folder , Files 
+Files here is leaf nodes and Folder is non leaf nodes . or composite nodes . 
+
+
+composite pattern composes object into tree like structure representing a part-whole  hirearchy  . It let client treats individual object and composition of object uniformly .  
+

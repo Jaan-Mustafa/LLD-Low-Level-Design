@@ -1,0 +1,54 @@
+// Proxy Design Pattern : 
+
+User --------------->Resource
+    <----------------
+
+
+    beeche me proxy daal denge 
+    user will send message to proxy , proxy will send it to Resource
+    Resource will send it to proxy , proxy send it to user . 
+
+
+
+Proxy => Virtual , Protection , Remote 
+
+//////////////////////////////////////////////////////////////
+
+
+Virtual Proxy : 
+
+
+
+
+
+
+Protection Proxy  : 
+
+The proxy pattern provides a surrogate or placeholder for another object to control access to it . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

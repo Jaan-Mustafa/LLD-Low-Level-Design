@@ -1,0 +1,12 @@
+Template Method Pattern : 
+
+load Data => pre process Data => Train Model => evaluates => Save model . 
+
+hame isme template bana ke dena he taaki developer koi galti na kar paaye . 
+
+
+Template Mehtod pattern design the skeleton of an algorithm , for an operation defineing some steps to subclasses . Templates Method let subclasses redefine certain steps of an algorithm without charging the algorithm structure . 
+
+
+
+Example  :     order of executions , 

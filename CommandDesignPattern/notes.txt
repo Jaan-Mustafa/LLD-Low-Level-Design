@@ -1,0 +1,23 @@
+Command Patter : 
+
+
+***                                      ***
+Source                                  Receiver 
+
+
+
+
+source ->command-> receiver 
+         <--         <-- 
+
+we want to make it loosely coupled 
+
+Snart Home Automation : 
+ 
+
+ example : keyboard shortcut . 
+
+
+ Defn : Encapsulate a request as an object , thereby letting you parametrize clients with different request , queue or log request and support undoable operations . 
+
+ 

@@ -1,0 +1,29 @@
+Chain of Pattern : 
+
+Client =>  ||    r1   r2    r3   ||
+
+isse linkedilist ki yaad aati he . 
+
+////////////////////////////////////////// 
+
+Standard Example : Cash Dispenser 
+                     h1             h2            h3 
+        cor : 
+        har handler ke paas dusre hanlder ka reference hota he . 
+
+
+Standard Defn : 
+    Allow an object to pass a request along a chain of potential hanlders  . Each handler in the chain decidees either to process the request or pass it to the next handler . 
+
+
+
+Logger : 
+   -> Info 
+   -> Debug 
+   -> Error 
+
+H/W => design a leave request system . 
+
+employee => if leave is less than 2 , it will be accepted by team lead , if grater than x then it will go to manager , if greater than y it will go to director . 
+
+

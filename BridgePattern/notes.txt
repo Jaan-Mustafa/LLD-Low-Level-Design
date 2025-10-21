@@ -1,0 +1,76 @@
+Bridge Design Pattern : 
+
+Car : drive()
+
+CarTypes : sedan , hatchback , suv 
+Engine : petrol , diesel , electric 
+
+
+car types     engine 
+sedan           Petrol 
+hatchback       Diesel 
+suv             Electric
+.               .
+.               .
+.               .
+m               n 
+
+
+ total class => m*n ; 
+This will lead to Class Explosion :
+
+
+Concept : 
+
+HLP => High level part   => abstraction 
+LLP => Low level part      => implementation 
+
+the above example 
+hlp is car types 
+llp  is engine , 
+
+
+Car                                         Engine 
+
+Standard Defn : 
+Bridge decouples an abstractions from it's implementations , so that both can vary independently . 
+Abstraction : high level layer . 
+implementation : low level layers . 
+
+Difference between Strategy and Bridge : 
+
+Strategy : 
+
+
+
+
+
+
+
+
+
+
+
+bridge : 
+
+
+
+hte main difference is intent 
+ek baar suv ko petrol ke saath jod dia , to wo change nhi hoga , 
+but stratgey me algo change hota rehta he . here at bridge we don't change once algo is fixed 
+
+strategy : me ham algo 
+
+
+Real world use case : 
+
+
+remote control 
+
+
+sony       implememtnation llp    => lcd , led , oled . 
+remote=> hlp 
+
+
+Gui : textbox , dropdown , radiobutton , Os => windows , macos , linux 
+

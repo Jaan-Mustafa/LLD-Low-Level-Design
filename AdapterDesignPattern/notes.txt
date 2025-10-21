@@ -1,0 +1,11 @@
+Adapter Pattern : 
+Think like what is adapter : 
+
+
+A            Adapter_C                           B 
+
+existing code ========> Adapter ============> 3rd party 
+adapter converts the interface of a class inot another interface thta tclient expects . Adapter lets classes work together that could not otherwise because of incompatibel interface . 
+
+
+
