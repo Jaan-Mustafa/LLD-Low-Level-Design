@@ -1,0 +1,8 @@
+State Design Pattern : 
+
+Object has three state => A , B , C 
+SMD => State Machine Design   
+Object O has 4 state A , B , C , D 
+mehtods => m1  m2 m3 m4 
+
+number of object and number of methods => are limited 

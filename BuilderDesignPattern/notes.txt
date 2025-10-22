@@ -11,3 +11,31 @@ problem 1 :  Constructor Overloading (Telescoping ) :
 problem 2 : class become mutable 
 problem 3 : inconsistent state 
 problem 4 : scattered validation 
+
+
+
+client => builder => target 
+
+
+builder will return object and will solve problem all 4 that we have listed above . 
+
+
+
+Builder with Director : 
+
+
+
+
+Step Builder :
+
+what it solve ? 
+
+
+pizza : crust -> sauce -> toppings -> cheese 
+ 
+
+ => Create Object step - by -step 
+    if Required (otpional )
+    It uses multiple inheritance 
+
+    

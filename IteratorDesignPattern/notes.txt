@@ -1,0 +1,79 @@
+Iterator pattern : 
+
+obj1  ===================> LinkedList 
+      ===================> Binary Tree 
+      ===================> Playlist 
+
+
+Iterators :    list.getiterator()
+
+Iterator abstract 
+hasNext() ; // tell ki agla element exist karta he ki nhi 
+next()    ; // iterator ko agle element pe moove kar dega . 
+
+
+
+
+LinkedList 
+int data ; 
+Linkedlist* next ; 
+getIterator(){
+
+}
+
+
+Iterable abstract 
+   Iterator provides a way to access the elements of an aggregate objects sequentially without exposing its underlying representation . 
+
+
+
+   we can add prev()
+
+
+Real world use case : iterators that we see in the design work on this . 
+
+
+Flyweight Design Pattern : agar ram bachana he to ye use karte he . 
+
+
+Asteroid : 
+    int length ; 
+    int width ; 
+    int weight ; 
+    String color 
+    String texture 
+    int posx , posy 
+    int velx , vely 
+
+
+
+it says that we should break the class into two class : 
+
+Intrinsic : uper ke 5  ; Same Re-use  .  (Same , Re-use)
+
+
+Extrinsic : last ke 2   ; Can't re-use . 
+
+
+
+AsteroidFlyweight : 
+AsteroidContext has a AsteroidFlyweight .
+
+
+map< key  , AsteroidFlyweight>> pool ; 
+
+
+key = lenght + '1' + width + '1' + weight + '1'+ color + '1' + texture  
+
+It's factory but a different factory . 
+
+It's uses sharing to support large number of fine grained objects efficietnly . 
+
+
+
+
+
+
+
+
+
