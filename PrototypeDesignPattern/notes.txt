@@ -1,0 +1,45 @@
+Prottype Design Pattern  : 
+
+NPC 
+// expensive operation
+clone(){}
+
+
+NPC *n1= new NPC() ; 
+Copy Constructor is base on this prototype . 
+
+
+
+Clonable abstraction class 
+
+
+NPC will be impelment clone  
+marker itnerfaces => feature in java . 
+
+
+NPC : 
+String name ; 
+int health ; 
+int power ; 
+NPC(name , h , p) ; 
+clone(){}
+
+
+
+
+clone(){
+    new NPC(*this) ; 
+}
+
+
+shallow copy  : 
+
+
+
+
+
+deep copy : 
+
+
+
+Standard defn : It let you create new object by copying cloning anothter instance . 

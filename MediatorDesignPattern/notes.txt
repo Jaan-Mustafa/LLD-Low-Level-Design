@@ -1,0 +1,35 @@
+Mediator Design Pattern : 
+
+
+
+obj1     --------------> obj2 
+
+
+m1() call by obj1 which talk to obj2  adn response given by obj2 . 
+
+problem : if n object then we need n-1 object to talk . 
+
+
+mediator help this to solve this problem . 
+
+
+Chat Room : 
+
+ 
+
+
+ what is diffrence between observer and mediator design pattern . 
+
+
+ Mediator :  jab bhi 
+
+
+ Observer : jab bhi observable ki state change hogi , to jo wait kar rahe he unko pata chhal jaayega . 
+
+
+ Standard Defn  : 
+ Define an object that encapuslaties how a set of objects interact , and promote loose coupling by preventing them from referring to each other . 
+
+ ->Chat rooms
+ -> online match makers 
+ 

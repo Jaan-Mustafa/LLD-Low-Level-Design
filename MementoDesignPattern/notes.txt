@@ -1,0 +1,30 @@
+Used to save the snapshot of the object . 
+
+may be to get UnDo : functionality . 
+
+
+It has three keyword 
+Memento  : 
+Originator  : 
+Caretaker : 
+
+obj1s1 -> obj1s2 -> obj1s3 -> obj1s4 
+
+memento snapshot : 
+
+Sql :         
+
+
+No Sql : 
+
+ye rollback me used aata he . 
+
+
+creatMemento(){}  // yeha pe store ho jaayega state . 
+ 
+
+
+ originator => transaction 
+
+ Standard Defn : Provides an ability to take snapshot of an object at various point in time and provide undo capabilities to a previous state . 
+ 

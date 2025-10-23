@@ -1,0 +1,28 @@
+DocumentElement : 
+
+
+
+
+DocumentElemetn 
+
+
+TextFile      Image       Video   will impelment documentElement 
+
+
+
+Strategy vs Visitor Pattern : 
+
+..
+
+
+Standard Defn : Allows to add new operation to existing classes without changing ther estrucutre . Separates operation from teh object it operates . 
+
+real life example : used in compiler . ,game rendering engine 
+
+
+aisa use case jisme number of operation badh rahe he , lekin karne ke tareeke same rehte he lagbhag . 
+
+
+
+
+

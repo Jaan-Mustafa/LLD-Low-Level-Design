@@ -6,3 +6,19 @@ Object O has 4 state A , B , C , D
 mehtods => m1  m2 m3 m4 
 
 number of object and number of methods => are limited 
+
+
+Vending Machine : 
+
+when it is in idle state => No Coin State . 
+When coin is inserted : HasCoinState 
+Dispense State 
+SoldOutState 
+
+
+Standard Defn : It allows an object to alter its behaviour when its internal state changes . The object will appear to charge the class . 
+
+
+Real World Use case : Vending Machine . 
+Document Editor . => Publish , archive , 
+atm 

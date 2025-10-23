@@ -1,0 +1,37 @@
+Anti - Pattern : 
+
+1. God Object : 
+Ek aisi class jo kaafi saare methods ko call kar rhi he , hamari application ka central hub ban gya he ye ,  SRP ko break kar to raha he , lekin ye aur bhi error ko laa rha he , 
+
+2. Spaghetti Code : 
+
+application tightly coupled , prone to error , 
+
+3. Hard-Coding -Things : 
+
+cheezo ko hard karna 
+
+4 : Gold-Plating (over engineering )
+5 Dry (Do not repeat yourself ) . 
+
+
+6 Construtor Overloading 
+7 Overuse of Getter / Setter  : ham chahte he ki bahar se koi access na kare , getter / setter are built so it can go through validation  . 
+8 Premature Optimization : Make it work then make it fast . 
+
+9 . Inheritance overuse . 
+
+//////////////////////////////////////////////////////////////////
+
+
+Null Object Pattern : 
+
+if(ob1 ==NULL)  // is tareeke ke check ko avoid karna he . 
+
+
+replace conditionals with polymorphism 
+
+null object pattern says that : 
+
+
+NullObject it will return nohting 
