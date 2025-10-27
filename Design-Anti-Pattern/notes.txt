@@ -23,7 +23,7 @@ cheezo ko hard karna
 
 //////////////////////////////////////////////////////////////////
 
-
+ 
 Null Object Pattern : 
 
 if(ob1 ==NULL)  // is tareeke ke check ko avoid karna he . 
